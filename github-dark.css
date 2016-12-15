@@ -435,10 +435,15 @@ table.files td.icon {
     color: #ccc;
 }
 
-.commit-tease, .branch-infobar {
+.commit-tease, .branch-infobar, .TutorialPopover {
     color: #8485ce;
     background-color: #364952;
     border-color: #4c85a0;
+}
+
+.TutorialPopover::after {
+    border-top-color: #364952;
+    border-bottom-color: transparent;
 }
 
 .commits-list-item .commit-author {
