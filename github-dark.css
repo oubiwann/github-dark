@@ -435,7 +435,7 @@ table.files td.icon {
     color: #ccc;
 }
 
-.commit-tease {
+.commit-tease, .branch-infobar {
     color: #8485ce;
     background-color: #364952;
     border-color: #4c85a0;
