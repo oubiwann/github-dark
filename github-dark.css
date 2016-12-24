@@ -441,7 +441,7 @@ table.files td.icon {
     border-color: #4c85a0;
 }
 
-.TutorialPopover {
+.TutorialPopover, .dropdown-menu {
     color: #8485ce;
     background-color: #1a2632;
     border-color: #4c85a0;
@@ -451,6 +451,12 @@ table.files td.icon {
     border-top-color: #364952;
     border-bottom-color: transparent;
 }
+
+.dropdown-menu::after {
+    background-color: #1a2632;
+    border-bottom-color: #1a2632;
+    border-top-color: transparent;
+}    
 
 .commits-list-item .commit-author {
     color: #00aba5;
